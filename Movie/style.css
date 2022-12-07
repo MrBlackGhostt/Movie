@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Oswald&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('images/Avatar.jpg') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100vh;
+}
+.logo{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.logo img{
+    height: 7vh;
+}
+.navbar {
+    /* background-color: rgb(11, 11, 11); */
+    border-radius: 6px;
+}
+
+.navbar img {
+    width: 130px;
+    float: left;
+}
+
+
+.navbar ul {
+    display: flex;
+   }
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+
+    text-decoration: none;
+    color: rgb(30, 64, 232);
+    padding:  0px 20px;
+    }
+
+.navbar li a:hover {
+    color:teal;
+    font-weight: bolder;
+}
+
+div{
+    color: white;
+}
+div p span{
+    color: white;
+    border: 1px solid white;
+    font-size: ;
+}
+
+.heropage{
+    position: relative;
+    color: bisque;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.inside-heropage{
+    line-height: 2;
+}
+
+.inside-heropage h1{
+    font-size: 40px;
+}
+.inside-heropage p{
+    font-size: 17px;
+}
+span{
+    color: teal;
+}
+
+.line1{
+height: 2px;
+color: aquamarine;
+width: 12%;
+margin-left: 0px;
+margin-right: 0px;
+position: absolute;
+}
+
+.poster{
+    margin-top: 90px;
+    margin-right: 130px;
+}
+
+.poster img{
+    height: 320px;
+    float: right;
+    border-radius: 10px;
+}
+
+.btn1{
+    margin-top: 30px;
+}
+
+.btn1 p{
+    text-decoration: none;
+    color: rgb(97, 220, 241);
+    margin: 2px 3px;
+    padding: 3px 5px;
+}
+.btn1 a{
+    border: 1px solid aliceblue;
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 2px 3px;
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+.btn1 a:hover{
+    background: black;
+    color: teal;
+}
